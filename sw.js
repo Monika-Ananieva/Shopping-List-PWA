@@ -5,14 +5,14 @@ const assets = [
     'js/materialize.min.js',
     'css/styles.css',
     'css/materialize.min.css',
-    'img/dish.png',
+    'img/grocery-icon.png',
     'https://fonts.googleapis.com/icon?family=Material+Icons',
     'https://fonts.gstatic.com/s/materialicons/v50/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2',
     'pages/fallback.html'
 ];
 
-const staticCacheName = 'site-static-v3';
-const dynamicCacheName = 'site-dynamic-v3';
+const staticCacheName = 'site-static-v5';
+const dynamicCacheName = 'site-dynamic-v5';
 
 // Cache size limit function
 const limitCacheSize = (name, size) => {
