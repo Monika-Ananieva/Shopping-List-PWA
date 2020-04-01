@@ -20,7 +20,7 @@ const renderList = (data, id) => {
 
     const html = `
         <div class="card-panel list white row" data-id="${id}">
-            <img src="img/dish.png" alt="list thumb">
+            <img src="img/grocery-icon.png" alt="list thumb">
             <div class="list-details">
                 <div class="list-title">${data.title}</div>
                 <div class="list-items">

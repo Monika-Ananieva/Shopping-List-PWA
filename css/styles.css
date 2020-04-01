@@ -1,8 +1,8 @@
 /* colours */
 :root{
-  --primary: #FFE9D2;
-  --secondary: #FFE1C4;
-  --title: #FF8816;
+  --primary: #ede7f6;
+  --secondary: #d1c4e9;
+  --title: #b39ddb;
 }
 
 /* layout styles */
@@ -36,7 +36,8 @@ nav .sidenav-trigger{
 }
 .list img{
   grid-area: image;
-  max-width: 60px;
+  max-width: 90px;
+  margin-top: 18px;
 }
 .list-details{
   grid-area: details;
@@ -45,15 +46,20 @@ nav .sidenav-trigger{
 .list-delete{
   grid-area: delete;
   position: absolute;
-  bottom: 0px;
   right: 0px;
 }
 .list-delete i{
   font-size: 18px;
   cursor: pointer;
 }
+.list-delete i:hover{
+  color: #b388ff;
+}
 .list-title{
   font-weight: bold;
+  font-size: 18px;
+  color: #b39ddb;
+  padding-bottom: 5px;
 }
 .list-ingredients{
   font-size: 0.8em;
@@ -74,7 +80,6 @@ input{
 form .input-field{
   margin-top: 30px;
 }
-
 .item-delete {
   float: right;
   cursor: pointer;
@@ -85,5 +90,41 @@ form .input-field{
 }
 
 .item:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(237, 231, 246, 0.4);
+}
+.item i:hover{
+  color: #b388ff;
+}
+/* others */
+.container {
+  max-width: 550px;
+}
+
+[type="checkbox"]+span:not(.lever) {
+  padding-left: 25px;
+}
+
+.material-icons {
+  cursor: pointer;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #b388ff;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+  color: #b388ff;
+}
+
+[type="checkbox"]+span:not(.lever):before, [type="checkbox"]:not(.filled-in)+span:not(.lever):after {
+  border: 2px solid #808080;
+}
+
+[type="checkbox"]:checked+span:not(.lever):before {
+  border-right: 2px solid #b388ff;
+  border-bottom: 2px solid #b388ff;
+}
+
+.sidenav li>a:hover {
+  background-color: rgba(237, 231, 246, 0.4);
 }

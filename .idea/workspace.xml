@@ -24,7 +24,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Shopping_List" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/pwa-tutorial-lesson-2/index.html" useBuiltInWebServerPort="true">
@@ -42,6 +42,9 @@
       <option name="presentableId" value="Default" />
       <updated>1585649347361</updated>
       <workItem from="1585649348620" duration="26620000" />
+      <workItem from="1585683525494" duration="264000" />
+      <workItem from="1585684106409" duration="1177000" />
+      <workItem from="1585744693091" duration="4146000" />
     </task>
     <servers />
   </component>
@@ -53,6 +56,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.151.1920.1040@0.0.1920.1040" timestamp="1585651374031" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585748388636">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.151.1920.1040@0.0.1920.1040" timestamp="1585748388636" />
     <state x="742" y="200" key="#index.html" timestamp="1585651385982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
