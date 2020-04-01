@@ -130,3 +130,7 @@ input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-def
 .sidenav li>a:hover {
   background-color: rgba(237, 231, 246, 0.4);
 }
+
+input[name="complete"]:checked + span {
+  text-decoration: line-through;
+}

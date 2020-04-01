@@ -3,7 +3,7 @@
   "short_name": "ShoppingList",
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#b39ddb;",
+  "background_color": "#b39ddb",
   "theme_color": "#d1c4e9",
   "orientation": "portrait-primary",
   "icons": [
