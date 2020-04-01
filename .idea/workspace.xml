@@ -26,6 +26,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Git\Shopping-List-PWA\public" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/pwa-tutorial-lesson-2/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -45,7 +50,7 @@
       <workItem from="1585683525494" duration="264000" />
       <workItem from="1585684106409" duration="1177000" />
       <workItem from="1585744693091" duration="4955000" />
-      <workItem from="1585753078514" duration="782000" />
+      <workItem from="1585753078514" duration="1849000" />
     </task>
     <servers />
   </component>
