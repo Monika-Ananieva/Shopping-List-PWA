@@ -28,7 +28,7 @@ const renderList = (data, id) => {
                 </div>
             </div>
             <div class="list-delete">
-                <i class="material-icons">delete_outline</i>
+                <i class="material-icons">delete_forever</i>
             </div>
         </div>
     `;
@@ -49,7 +49,7 @@ const renderItem = (item) => {
                 <span>${item.name}</span>
             </label>
             <div class="item-delete">
-                <i class="material-icons">delete_outline</i>
+                <i class="material-icons">clear</i>
             </div>
         </div>
     `;

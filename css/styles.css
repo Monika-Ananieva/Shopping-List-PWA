@@ -49,8 +49,9 @@ nav .sidenav-trigger{
   right: 0px;
 }
 .list-delete i{
-  font-size: 18px;
+  font-size: 22px;
   cursor: pointer;
+  color: #9e9e9e;
 }
 .list-delete i:hover{
   color: #b388ff;
@@ -87,6 +88,7 @@ form .input-field{
 
 .item-delete i{
   font-size: 18px;
+  color: #9e9e9e;
 }
 
 .item:hover {

@@ -11,8 +11,8 @@ const assets = [
     'pages/fallback.html'
 ];
 
-const staticCacheName = 'site-static-v1';
-const dynamicCacheName = 'site-dynamic-v1';
+const staticCacheName = 'site-static-v3';
+const dynamicCacheName = 'site-dynamic-v3';
 
 // Cache size limit function
 const limitCacheSize = (name, size) => {
