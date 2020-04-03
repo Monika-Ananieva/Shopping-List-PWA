@@ -46,7 +46,7 @@ form.addEventListener('submit', event => {
             'checked': false
         };
 
-        items.push(item)
+        items.push(item);
         id++;
     });
 
@@ -85,7 +85,8 @@ listContainer.addEventListener('click', event => {
         // Delete a list
         const list = event.target.closest('.list');
         db.collection('lists').doc(list.getAttribute('data-id')).delete();
-    } else if (event.target.name === 'complete') {
+    } else
+    if (event.target.name === 'complete') {
         // Item checkbox was clicked
         let checkbox = event.target;
         let item = event.target.closest('.item');
@@ -105,7 +106,8 @@ listContainer.addEventListener('click', event => {
 
             db.collection('lists').doc(list.getAttribute('data-id')).set(data)
         })
-    } else if (event.target.parentNode.className === 'item-delete') {
+    } else
+    if (event.target.parentNode.className === 'item-delete') {
         // Delete an item
         let item = event.target.closest('.item');
         let list = event.target.closest('.list');

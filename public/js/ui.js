@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     M.Sidenav.init(forms, {edge: 'left'});
 });
 
-// render lists data
+// Render lists data
 const renderList = (data, id) => {
 
     let renderedItems = [];
